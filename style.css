@@ -1,0 +1,114 @@
+/* butun kartlara aid kodlar */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    box-sizing: border-box;
+    width: 330px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 35px 16px 20px 16px;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    margin: 0px 0px 0px -6px;
+    padding-bottom: 0px;
+    }
+.p1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 0px;
+    margin:-4px 0px 0px -1px ;
+}
+.p2{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 0px 15px 0px;
+    margin: 0px 0px 0px -1px;
+}
+.p3{
+    font-family: 'Tahoma', sans-serif;
+    font-size: 9px;
+    margin: 0px 0px 0px -1px;
+    padding-bottom: 0px;
+}
+.p4{
+    font-family: 'Tahoma', sans-serif;
+    margin: 0px 0px 0px -1px;
+    padding-top: 0px;
+}
+.rightbottom{
+    display: flex;
+    width: 100%;
+}
+.date{
+    width: 80%;
+}
+/* cehrayi kartin kodlari */
+#card1{ 
+    background-color:#8A2BE2 ;
+    color: white;
+}
+.visa>img{
+    width: 70px;
+    height: 30px;
+}
+/* qara kartin kodlari */
+#card2{
+    background-color: black;
+    color: white;
+}
+.visa>img{
+    width: 70px;
+    height: 30px;
+}
+.ting{
+    width: 150px;
+    height: 50px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+/* yashil kartin kodlari */
+
+#card3{
+    background-color: rgb(32, 124, 4);
+    color: white;
+}
+.master>img{
+    width: 70px;
+    height: 35px;
+}
+.ting{
+    width: 200px;
+    height: 40px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* mavi kartin kodlari */
+#card4{
+    background-color: blue;
+    color: white;
+}
+.master>img{
+    width: 70px;
+    height: 35px;
+}
+.ting{
+    width: 150px;
+    height: 40px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
